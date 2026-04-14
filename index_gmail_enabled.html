@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shrikanth Harvesters | Harvesting Services Karnataka</title>
+
+    <style>
+        :root {
+            --primary: #0f5132;
+            --secondary: #198754;
+            --accent: #ffb703;
+            --bg: #f4f7f4;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            color: #333;
+        }
+
+        /* NAVBAR */
+
+        nav {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        /* HERO */
+
+        .hero {
+            position: relative;
+            height: 420px;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.55);
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-size: 42px;
+        }
+
+        .hero-text p {
+            margin: 10px 0 20px;
+            font-size: 18px;
+        }
+
+        .btn {
+            background: var(--accent);
+            padding: 12px 25px;
+            border-radius: 30px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* SECTIONS */
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* SERVICES */
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* GALLERY */
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* FORM */
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        form button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        /* MAP */
+
+        .map iframe {
+            width: 100%;
+            height: 350px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        /* WHATSAPP */
+
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px 18px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .bookbtn {
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            background: var(--accent);
+            color: white;
+            padding: 14px 20px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Shrikanth Harvesters</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#crops">Crops</a>
+            <a href="#booking">Booking</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <div class="hero">
+        <img src="https://images.unsplash.com/photo-1598514982845-33f38f2e9a4b">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Shrikanth Harvesters</h1>
+            <p>Professional Harvesting Services Across Karnataka</p>
+            <a class="btn" href="tel:+9181500 18503">Call Now</a>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div class="container" id="about">
+        <h2 class="section-title">About Us</h2>
+
+        <div class="card">
+            <p>
+                Shrikanth Harvesters is a trusted agricultural service provider dedicated to helping farmers harvest
+                crops efficiently and on time. With modern harvesting machines and experienced operators, we provide
+                reliable harvesting services across Karnataka.
+            </p>
+
+            <br>
+
+            <p>
+                Our goal is to support farmers by reducing labour work, saving time, and improving crop productivity. We
+                use advanced harvesting machines designed for multiple crops to ensure fast and clean harvesting with
+                minimal grain loss.
+            </p>
+
+            <br>
+
+            <p>
+                Apart from harvesting, we also provide agriculture support services such as land leveling, ploughing,
+                seed sowing, and tractor logistics services.
+            </p>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+
+    <div class="container" id="services">
+        <h2 class="section-title">Our Services</h2>
+
+        <div class="services">
+
+            <div class="service-box">
+                <h3>Multiple Crops Harvesting</h3>
+                <p>Professional harvesting services for different crops using modern machines.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Agriculture Support Services</h3>
+                <p>Land leveling, ploughing, seed sowing and tractor logistics.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Highly Skilled Drivers</h3>
+                <p>Experienced operators ensure safe and efficient harvesting.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Less Seed Loss</h3>
+                <p>Advanced machines reduce grain loss during harvesting.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CROPS -->
+
+    <div class="container" id="crops">
+
+        <h2 class="section-title">Crops We Harvest</h2>
+
+        <div class="card">
+            <h3>Maize – ಮೆಕ್ಕೆಜೋಳ</h3>
+            <p>
+                Maize is one of the most widely cultivated cereal crops valued for its high yield and versatility. It
+                grows best in warm climates with well-drained soil and usually matures within 3–4 months. Efficient
+                harvesting is important to minimize grain loss and maintain quality.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Mung Dal – ಹೆಸರುಕಾಳು</h3>
+            <p>
+                Brown gram is a nutritious pulse crop rich in protein and widely grown in warm regions. It has a short
+                growing period of around 2–3 months. Proper harvesting prevents pod shattering and helps farmers
+                maintain high yield.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Chickpea – ಕಡಲೆ</h3>
+            <p>
+                Chickpea is an important pulse crop known for its high protein and nutritional value. It grows well in
+                dry and cool climates and is harvested within 3–4 months. Timely harvesting ensures good grain quality.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Toor Dal – ತೊಗರಿ</h3>
+            <p>
+                Pigeon pea is a major pulse crop grown across India. It is rich in protein and nutrients and usually
+                takes 5–6 months to mature. Efficient harvesting reduces pod loss and increases productivity.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- PRICE -->
+
+    <div class="container">
+        <h2 class="section-title">Harvesting Price List</h2>
+
+        <div class="card">
+
+            <p><strong>Maize</strong> – ₹500 / Acre</p>
+            <p><strong>Brown Gram</strong> – ₹300 / Acre</p>
+            <p><strong>Chickpea</strong> – ₹200 / Acre</p>
+            <p><strong>Pigeon Pea</strong> – ₹600 / Acre</p>
+
+        </div>
+    </div>
+
+    <!-- BOOKING -->
+
+    <div class="container" id="booking">
+
+        <h2 class="section-title">Book Harvesting Service</h2>
+
+        <div class="card">
+
+            <form action="https://formsubmit.co/pramodnr9380@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New Harvester Booking from Website">
+                <input type="hidden" name="_template" value="table">
+
+                <input type="text" name="Farmer Name" placeholder="Farmer Name" required>
+
+                <input type="tel" name="Phone Number" placeholder="Phone Number" required>
+
+                <input type="text" name="Village Name" placeholder="Village Name">
+
+                <input type="text" name="Crop Type" placeholder="Crop Type">
+
+                <input type="text" name="Land Area (Acres)" placeholder="Land Area (Acres)">
+
+                <textarea name="Additional Details" placeholder="Additional Details"></textarea>
+
+                <button type="submit">Submit Booking</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- MAP -->
+
+    <div class="container">
+
+        <h2 class="section-title">Our Location</h2>
+
+        <div class="map">
+
+            <iframe
+                src="https://maps.google.com/maps?q=Timmapur%20Taluk%20Hungund%20Bagalkot%20587118&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="350" style="border:0;"></iframe>
+
+        </div>
+
+    </div>
+
+    <!-- CONTACT -->
+
+    <div class="container" id="contact">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="card">
+
+            <p>📞 Phone: 81500 18503</p>
+            <p>📍 Timmapur, Hungund</p>
+            <p>📮 Pincode: 587118</p>
+
+        </div>
+
+    </div>
+
+    <a class="whatsapp" href="https://wa.me/9181500 18503">WhatsApp</a>
+
+    <a class="bookbtn" href="https://wa.me/9181500 18503?text=Hello%20I%20want%20to%20book%20harvesting%20service">
+        Book Harvesting
+    </a>
+
+    <footer>
+        © Shrikanth Harvesters
+    </footer>
+
+</body>
+
+</html>
